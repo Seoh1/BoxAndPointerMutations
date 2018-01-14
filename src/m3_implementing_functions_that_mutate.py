@@ -145,9 +145,9 @@ def swap_colors(circle, rectangle):
     #      B = temp
     ####################################################################
     # ------------------------------------------------------------------
-    rectangle_new_color = circle.fill_color
+    rectangle_newcolor = circle.fill_color
     circle.fill_color = rectangle.fill_color
-    rectangle.fill_color = rectangle_new_color
+    rectangle.fill_color = rectangle_newcolor
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
